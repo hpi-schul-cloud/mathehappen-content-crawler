@@ -4,11 +4,12 @@ Program that pulls data from [mathehappen.de](https://mathehappen.de), transform
 
 # Compile and run
 ```
-go get -u github.com/schul-cloud/mathehappen-content-crawler        # download, compile, and install the program
+go get -u github.com/schul-cloud/mathehappen-content-crawler/cmd/mathehappen-content-crawler
+                                      # download, compile, and install the program
 
-export MH_USER=MY_USERNAME                                          # must export mathehappen username
-expert MH_PASSWORD=MY_PASSWORD                                      # and password
-mathehappen-content-crawler                                         # then run the program
+export MH_USER=MY_USERNAME            # must export mathehappen username
+expert MH_PASSWORD=MY_PASSWORD        # and password
+mathehappen-content-crawler           # then run the program
 ```
 
 Options that are available through environment variables are
